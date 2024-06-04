@@ -16,6 +16,8 @@ int main(){
     //unlimited loop untu menulis
     while(true){
         cout << "-";
+        //mendapatkan untuk setiap karakter dalam satu baris
+        getline(cin,baris);
     }
 
 }
