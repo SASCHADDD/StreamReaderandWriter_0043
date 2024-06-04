@@ -18,6 +18,8 @@ int main(){
         cout << "-";
         //mendapatkan untuk setiap karakter dalam satu baris
         getline(cin,baris);
+        //Loop akan erhenti jika anda memasukkan karakter q
+        if(baris == "q") break;
     }
 
 }
